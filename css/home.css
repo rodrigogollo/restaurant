@@ -20,6 +20,7 @@
     background-image: url("../img/ambient.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    margin-top: 44px;
 }
 .image h1{
     position: absolute;
@@ -48,15 +49,18 @@
     background-color: rgb(234, 190,124);
     border: 2px solid #311E10;
 }
-.navbar ul{
+.navbar .list{
     position: absolute;
     top: 0;
     display: inline;
     padding: 12px 5px;
 }
-.navbar li{
+.navbar .list li{
     display: inline;
     margin: 0px 5px;
+}
+.navbar .list a:hover{
+    color: white;
 }
 .navbar img{
     height: 35px;
@@ -68,8 +72,24 @@
     text-decoration: none;
     color: #311E10;
 }
-.item a:hover{
-    color: white;
+.droplist{
+    position: relative;
+    text-align: center;
+    display: none;
+    margin: 0px;
+    background-color: rgba(234, 190, 124, 0.9);
+}
+.droplist li{
+    padding: 3px 0px;
+}
+.droplist li:hover{
+    background-color: rgba(80, 65, 42, 0.9); 
+}
+.colorize{
+    color: rgba(234, 190, 124);
+}
+.descolorize{
+    color: #311E10;
 }
 footer{
     background-color: #311E10;
@@ -81,9 +101,9 @@ footer{
 }
 #vector{
     float: right;
-    height: 5px;
-    width: 5px;
-    margin-right: 40px;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
     display: none;
 }
 .news{
@@ -91,13 +111,13 @@ footer{
     margin: auto;
     padding: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
     border: 1px solid #311E10;
     background-color: rgb(234, 190,124);
     color: #311E10;
     position: relative;
     height: auto;
     align-content: center;
-
 }
 th, td{
     font-size: 1vw;
@@ -131,6 +151,9 @@ td{
         padding: 0.75vw 0.75vw;
         margin-top: 1.5vw;
     }
+    .droplist{
+        display: none;
+    }
 }
 @media screen and (max-width: 950px){
     .image h1{
@@ -154,6 +177,9 @@ td{
     .news table, tbody, th, tr, td{
         padding: 5px;
     }
+    .droplist{
+        display: none;
+    }
 }
 @media screen and (max-width: 768px) {
     .image h1{
@@ -166,7 +192,7 @@ td{
         padding: 2vw 2vw;
         margin-top: 3vw;
     }
-    .navbar ul{
+    .navbar .list {
         display: none;
     }
     #vector{

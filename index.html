@@ -6,21 +6,30 @@
     <meta name="description" content="A random restaurant website for portfolio, this can be turned into any other restaurant because is created on a generic way!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="css/home.css" rel="stylesheet">
-    <script type="text/javascript" src="js/home.js"></script>
+   
 </head>
 <body>
     <nav>
         <div class="navbar">
             <div class="item">
                 <a href="/"><img src="img/icon.png"></a>
-                <ul>
+                <ul class="list">
                     <li><a class="link" href="quemsomos/index.html">QUEM SOMOS</a></li>
                     <li><a class="link" href="/franquias">FRANQUIAS</a></li>
                     <li><a class="link" href="/lojas">NOSSAS LOJAS</a></li>
                     <li><a class="link" href="/franqueado">SEJA UM FRANQUEADO</a></li>
                     <li><a class="link" href="/contato">CONTATO</a></li>
                 </ul>
-                <a id="vector" href=""><img src="img/list.png"></a>
+                <img id="vector" src="img/list.png">
+                <div class="droplist">
+                    <ul>
+                        <a class="link" href="quemsomos/index.html"><li>QUEM SOMOS</li></a>
+                        <a class="link" href="/franquias"><li>FRANQUIAS</li></a>
+                        <a class="link" href="/lojas"><li>NOSSAS LOJAS</li></a>
+                        <a class="link" href="/franqueado"><li>SEJA UM FRANQUEADO</li></a>
+                        <a class="link" href="/contato"><li>CONTATO</li></a>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="image">
@@ -29,9 +38,7 @@
             <a href="/franqueado">SAIBA MAIS</a>
         </div>
     </nav>
-    <img src="">
 
-  
     <div class="news">
         <h2>NEWS FEED</h2>
         <table class="normaltable">
@@ -66,8 +73,6 @@
                 </td>
             </tr>
         </table>
-    
-
         <table class="sidetable">
             <tr>
                 <th>New Chips & Special Sauce</th>
@@ -101,11 +106,13 @@
             </tr>
         </table>
     </div>
+    
     <footer>
         <img src="">
         <p>Contact us: restaurant@example.com</p>
         <img src="">
         <p>&copy; 2019 restaurant.com<p>
     </footer>
+    <script type="text/javascript" src="js/home.js"></script>
 </body>
 </html>
