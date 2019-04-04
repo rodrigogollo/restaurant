@@ -1,19 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Tahoma;
-    box-sizing:border-box;
-}
-.navbar{
-    background:rgba(234, 190,124, 0.8);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:1;
-}
-.item{
-    position: relative;
-}
 .image{
     position: relative;
     height: 50vw;
@@ -25,7 +9,7 @@
 .image h1{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
     color: rgb(234, 190,124); 
     text-shadow: 1px 1px 2px#311E10;
@@ -35,7 +19,7 @@
     text-decoration: none;
     position: absolute;
     left: 50%;
-    top: 55%;
+    top: 45%;
     transform: translate(-50%, -50%);
     color: rgb(234, 190,124);
     border-radius: 1em;
@@ -48,63 +32,6 @@
     color: #311E10;
     background-color: rgb(234, 190,124);
     border: 2px solid #311E10;
-}
-.navbar .list{
-    position: absolute;
-    top: 0;
-    display: inline;
-    padding: 12px 5px;
-}
-.navbar .list li{
-    display: inline;
-    margin: 0px 5px;
-}
-.navbar .list a:hover{
-    color: white;
-}
-.navbar img{
-    height: 35px;
-    width: 35px;
-    margin-top: 6px;
-    margin-left: 5px;
-}
-.navbar .link{
-    text-decoration: none;
-    color: #311E10;
-}
-.droplist{
-    position: relative;
-    text-align: center;
-    display: none;
-    margin: 0px;
-    background-color: rgba(234, 190, 124, 0.9);
-}
-.droplist li{
-    padding: 3px 0px;
-}
-.droplist li:hover{
-    background-color: rgba(80, 65, 42, 0.9); 
-}
-.colorize{
-    color: rgba(234, 190, 124);
-}
-.descolorize{
-    color: #311E10;
-}
-footer{
-    background-color: #311E10;
-    color: rgb(234, 190,124);
-    bottom: 0;
-    text-align: center;
-    padding-bottom: 10px;
-    
-}
-#vector{
-    float: right;
-    height: 35px;
-    width: 35px;
-    margin-right: 10px;
-    display: none;
 }
 .news{
     width: 80%;
@@ -130,7 +57,7 @@ td{
     font-size: 1.5vw;   
 }
 .news img{
-    width: 20vw;
+    width: 100%;
     height: 15vw;
     margin: auto;
 }
@@ -150,9 +77,6 @@ td{
         font-size: 1.5vw;
         padding: 0.75vw 0.75vw;
         margin-top: 1.5vw;
-    }
-    .droplist{
-        display: none;
     }
 }
 @media screen and (max-width: 950px){
@@ -177,9 +101,6 @@ td{
     .news table, tbody, th, tr, td{
         padding: 5px;
     }
-    .droplist{
-        display: none;
-    }
 }
 @media screen and (max-width: 768px) {
     .image h1{
@@ -187,16 +108,10 @@ td{
         font-size: 4vw;
     }
     .image a{
-        top: 58%;
+        top: 48%;
         font-size: 3vw;
         padding: 2vw 2vw;
         margin-top: 3vw;
-    }
-    .navbar .list {
-        display: none;
-    }
-    #vector{
-        display: block;
     }
     .news h2{
         font-size: 2.5vw;

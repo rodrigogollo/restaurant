@@ -1,129 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Tahoma;
-    box-sizing:border-box;
-}
-.navbar{
-    background:rgba(234, 190,124, 0.8);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:1;
-}
-.item{
-    position: relative;
-}
 .image{
     position: relative;
+    margin-top: 44px;
     height: 50vw;
-    background-image: url("../img/ambient.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    margin: auto;
+    padding: 20px 0px;
+    width: 80%;
+    
 }
-.image h1{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(234, 190,124); 
-    text-shadow: 1px 1px 2px#311E10;
-    font-size: 2vw;
-}
-.image a{
-    text-decoration: none;
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
-    color: rgb(234, 190,124);
-    border-radius: 1em;
-    background-color: #311E10;
-    padding: 0.5vw 0.5vw;
-    margin-top: 1vw;
-    font-size: 1vw;
-}
-.image a:hover{
+.image h2:first-child{
     color: #311E10;
-    background-color: rgb(234, 190,124);
-    border: 2px solid #311E10;
+    margin-bottom: 20px;
 }
-.navbar ul{
-    position: absolute;
-    top: 0;
-    display: inline;
-    padding: 12px 5px;
+.image img{
+    height: 429px;
+    margin-bottom: 20px;
+    float: left;
 }
-.navbar li{
-    display: inline;
-    margin: 0px 5px;
+.block{
+    float: left;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px; 
 }
-.navbar img{
-    height: 35px;
-    width: 35px;
-    margin-top: 6px;
-    margin-left: 5px;
+.block img{
+    height: auto;
+    width: 60%;
 }
-.navbar .link{
-    text-decoration: none;
-    color: #311E10;
+.blockitem{
+    display: inline-block;
+    width: 40%;
 }
-.item a:hover{
-    color: white;
+.blockitem p{
+    padding: 10px;
 }
-footer{
-    background-color: #311E10;
-    color: rgb(234, 190,124);
-    bottom: 0;
-    text-align: center;
-    padding-bottom: 10px;
-}
-#vector{
-    float: right;
-    height: 5px;
-    width: 5px;
-    margin-right: 40px;
-    display: none;
+.blockitem h2{
+    padding: 5px;
 }
 
-@media screen and (max-width: 1250px){
-    .image h1{
-        font-size: 2.5vw;
-    }
-    .image a{
-        font-size: 1.5vw;
-        padding: 0.75vw 0.75vw;
-        margin-top: 1.5vw;
-    }
-}
 
-@media screen and (max-width: 950px){
-    .image h1{
-        font-size: 3vw;
+@media screen and (max-width: 1280px){
+    .block img{
+        width: 80%;
+        margin: 0px 10%;
     }
-    .image a{
-        font-size: 2vw;
-        padding: 1vw 1vw;
-        margin-top: 2vw;
+    .blockitem{
+        width: 80%;
+        margin: 0 10%;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .image h1{
-        text-align: center;
-        font-size: 4vw;
-    }
-    .image a{
-        top: 58%;
-        font-size: 3vw;
-        padding: 2vw 2vw;
-        margin-top: 3vw;
-    }
-    .navbar ul{
-        display: none;
-    }
-    #vector{
-        display: block;
-    }
-
 }

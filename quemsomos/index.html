@@ -5,29 +5,91 @@
     <title>Restaurant - Home</title>
     <meta name="description" content="A random restaurant website for portfolio, this can be turned into any other restaurant because is created on a generic way!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="../css/global.css" rel="stylesheet">
     <link type="text/css" href="css/quemsomos.css" rel="stylesheet">
-    <script type="text/javascript" src="js/home.js"></script>
+    
 </head>
 <body>
     <nav>
         <div class="navbar">
             <div class="item">
-                <a href="../index.html"><img src="../img/icon.png"></a>
-                <ul>
-                    <li><a class="link" href="/quemsomos">QUEM SOMOS</a></li>
+                <a href="../index.html" ><img src="../img/icon.png"></a>
+                <ul class="list">
+                    <li><a class="link" href="index.html">QUEM SOMOS</a></li>
                     <li><a class="link" href="/franquias">FRANQUIAS</a></li>
                     <li><a class="link" href="/lojas">NOSSAS LOJAS</a></li>
                     <li><a class="link" href="/franqueado">SEJA UM FRANQUEADO</a></li>
                     <li><a class="link" href="/contato">CONTATO</a></li>
                 </ul>
-                <a id="vector" href=""><img src="../img/list.png"></a>
+                <img id="vector" src="../img/list.png">
+                <div class="droplist">
+                    <ul>
+                        <a class="link" href="quemsomos/index.html"><li>QUEM SOMOS</li></a>
+                        <a class="link" href="/franquias"><li>FRANQUIAS</li></a>
+                        <a class="link" href="/lojas"><li>NOSSAS LOJAS</li></a>
+                        <a class="link" href="/franqueado"><li>SEJA UM FRANQUEADO</li></a>
+                        <a class="link" href="/contato"><li>CONTATO</li></a>
+                    </ul>
+                </div>
             </div>
         </div>
-
-
-
     </nav>
-    <h2>QUEM SOMOS</h2>
+    <div class="image">
+        
+        <div class="block">
+                <img src="img/restaurant2.jpg">
+                <div class="blockitem">
+                    <h2>QUEM SOMOS</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem mollitia 
+                        optio minus consectetur quae dicta dolores iste sunt sed nisi impedit, 
+                        natus molestias! Dicta delectus expedita nam ratione dolor molestiae!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem mollitia 
+                        optio minus consectetur quae dicta dolores iste sunt sed nisi impedit, 
+                        natus molestias! Dicta delectus expedita nam ratione dolor molestiae!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem mollitia 
+                        optio minus consectetur quae dicta dolores iste sunt sed nisi impedit, 
+                        natus molestias! Dicta delectus expedita nam ratione dolor molestiae!
+                    </p>
+                </div>
+        </div>
+        <!--
+        <div class="cardapio">
+            <h2>CARDÁPIO</h2>
+            <ul>
+                <li>PRATOS PRINCIPAIS</li>
+                <hr>
+                <li>
+                    <img src="" alt="">
+                    <p>YAKISOBA</p>
+                    <i><p>Massa com molho shoyo combinado com pimentao, frango, repolho e temperos do chefe</p></i>
+                    <p class="preco">R$10.00</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>YAKISOBA</p>
+                    <i><p>Massa com molho shoyo combinado com pimentao, frango, repolho e temperos do chefe</p></i>
+                    <p class="preco">R$10.00</p>
+                </li>
+                <li>PRATOS PRINCIPAIS</li>
+                <hr>
+                <li>
+                    <img src="" alt="">
+                    <p>YAKISOBA</p>
+                    <i><p>Massa com molho shoyo combinado com pimentao, frango, repolho e temperos do chefe</p></i>
+                    <p class="preco">R$10.00</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>YAKISOBA</p>
+                    <i><p>Massa com molho shoyo combinado com pimentao, frango, repolho e temperos do chefe</p></i>
+                    <p class="preco">R$10.00</p>
+                </li>
+            </ul>
+        </div>
+        -->
+    </div>
+    
 
 
     <footer>
@@ -36,5 +98,7 @@
         <img src="">
         <p>&copy; 2019 restaurant.com<p>
     </footer>
+    <script type="text/javascript" src="js/quemsomos.js"></script>
+    <script type="text/javascript" src="../js/global.js"></script>
 </body>
 </html>
