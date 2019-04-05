@@ -1,42 +1,68 @@
 .image{
-    position: relative;
-    margin-top: 44px;
-    height: 50vw;
-    margin: auto;
-    padding: 20px 0px;
     width: 80%;
-    
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 44px;
+    padding: 20px 0px;
+    position: relative;
+    height: auto;
 }
 .image h2:first-child{
     color: #311E10;
-    margin-bottom: 20px;
-}
-.image img{
-    height: 429px;
-    margin-bottom: 20px;
-    float: left;
 }
 .block{
-    float: left;
-    padding: 10px;
     width: 100%;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 .block img{
+    display: inline-block;
     height: auto;
     width: 60%;
 }
 .blockitem{
     display: inline-block;
-    width: 40%;
+    width: 39%;
+    vertical-align: top;
 }
 .blockitem p{
     padding: 10px;
+    text-indent: 50px;
+    text-align: justify;
 }
 .blockitem h2{
-    padding: 5px;
+    padding: 10px;
 }
 
+.cardapio ul{
+    list-style: none;
+    background-color: rgb(234, 190,124);
+    border: 1px solid #311E10;
+    padding: 10px;
+}
+.blockitem hr{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title{
+    margin-top: 10px;
+    color: #311E10;
+    border-bottom: 1px solid #311E10;
+    font-weight: bold
+}
+
+.cardapio li{
+    margin-top: 10px;
+}
+.title + li{
+    margin-top: 10px;
+}
+.preco{
+    font-style: italic;
+    color:  rgb(234, 190,124);
+    background-color: #311E10;
+    padding: 0px 7px;
+}
 
 @media screen and (max-width: 1280px){
     .block img{
@@ -46,5 +72,37 @@
     .blockitem{
         width: 80%;
         margin: 0 10%;
+        display: block;
+    }
+    .cardapio{
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+@media screen and (max-width: 768px){
+    .image{
+        width: 100%;
+        padding: 0px;
+    }
+    .block img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .blockitem{
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .cardapio{
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .cardapio h2{
+        padding: 10px;
+    }
+    .cardapio ul{
+        padding: 0px 10px;
     }
 }

@@ -35,10 +35,8 @@
 }
 .news{
     width: 80%;
-    margin: auto;
     padding: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 20px auto;
     border: 1px solid #311E10;
     background-color: rgb(234, 190,124);
     color: #311E10;
@@ -78,6 +76,15 @@ td{
         padding: 0.75vw 0.75vw;
         margin-top: 1.5vw;
     }
+    th{
+        font-size: 1.5vw;
+    }
+    td{
+        font-size: 1.3vw;
+    }
+    .news table, tbody, th, tr, td{
+        padding: 5px;
+    }
 }
 @media screen and (max-width: 950px){
     .image h1{
@@ -92,17 +99,12 @@ td{
         font-size: 2vw;
         margin-bottom: 15px;
     }
-    th{
-        font-size: 1.5vw;
-    }
-    td{
-        font-size: 1.3vw;
-    }
-    .news table, tbody, th, tr, td{
-        padding: 5px;
-    }
+    
 }
 @media screen and (max-width: 768px) {
+    .image{
+        background-image: url("../img/ambient_mobile.jpg");
+    }
     .image h1{
         text-align: center;
         font-size: 4vw;

@@ -56,14 +56,12 @@
 .descolorize{
     color: #311E10;
 }
-
 footer{
     background-color: #311E10;
     color: rgb(234, 190,124);
     bottom: 0;
     text-align: center;
     padding-bottom: 10px;
-    
 }
 #vector{
     float: right;
