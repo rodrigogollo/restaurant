@@ -1,4 +1,4 @@
-.image{
+.container{
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
@@ -7,7 +7,7 @@
     position: relative;
     height: auto;
 }
-.image h2:first-child{
+.container h2:first-child{
     color: #311E10;
 }
 .block{
@@ -31,6 +31,7 @@
 }
 .blockitem h2{
     padding: 10px;
+    border-bottom: 1px solid #311E10;
 }
 
 .cardapio ul{
@@ -54,11 +55,13 @@
 .cardapio li{
     margin-top: 10px;
 }
+.cardapio li:last-child{
+    margin-bottom: 10px;
+}
 .title + li{
     margin-top: 10px;
 }
 .preco{
-    font-style: italic;
     color:  rgb(234, 190,124);
     background-color: #311E10;
     padding: 0px 7px;
@@ -80,7 +83,7 @@
     }
 }
 @media screen and (max-width: 768px){
-    .image{
+    .container{
         width: 100%;
         padding: 0px;
     }

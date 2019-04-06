@@ -1,4 +1,4 @@
-.image{
+.container{
     position: relative;
     height: 50vw;
     background-image: url("../img/ambient.jpg");
@@ -6,7 +6,7 @@
     background-size: 100% auto;
     margin-top: 44px;
 }
-.image h1{
+.container h1{
     position: absolute;
     left: 50%;
     top: 40%;
@@ -15,7 +15,7 @@
     text-shadow: 1px 1px 2px#311E10;
     font-size: 2vw;
 }
-.image a{
+.container a{
     text-decoration: none;
     position: absolute;
     left: 50%;
@@ -28,7 +28,7 @@
     margin-top: 1vw;
     font-size: 1vw;
 }
-.image a:hover{
+.container a:hover{
     color: #311E10;
     background-color: rgb(234, 190,124);
     border: 2px solid #311E10;
@@ -68,10 +68,13 @@ td{
 }
 
 @media screen and (max-width: 1250px){
-    .image h1{
+    .container{
+        background-image: url("../img/ambient_tablet.jpg");
+    }
+    .container h1{
         font-size: 2.5vw;
     }
-    .image a{
+    .container a{
         font-size: 1.5vw;
         padding: 0.75vw 0.75vw;
         margin-top: 1.5vw;
@@ -87,10 +90,10 @@ td{
     }
 }
 @media screen and (max-width: 950px){
-    .image h1{
+    .container h1{
         font-size: 3vw;
     }
-    .image a{
+    .container a{
         font-size: 2vw;
         padding: 1vw 1vw;
         margin-top: 2vw;
@@ -102,14 +105,14 @@ td{
     
 }
 @media screen and (max-width: 768px) {
-    .image{
+    .container{
         background-image: url("../img/ambient_mobile.jpg");
     }
-    .image h1{
+    .container h1{
         text-align: center;
         font-size: 4vw;
     }
-    .image a{
+    .container a{
         top: 48%;
         font-size: 3vw;
         padding: 2vw 2vw;

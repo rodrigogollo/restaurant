@@ -1,0 +1,170 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    padding: 20px 0px;
+}
+.block{
+    margin-bottom: 20px;
+}
+.block img{
+    width: 60%;
+    height: auto;
+    display: inline-block
+}
+.descricaoblock{
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 10px 10px;
+}
+.descricaoblock p{
+    text-indent: 50px;
+}
+.block2{
+    margin-bottom: 20px;
+}
+.block2 img{
+    width: 60%;
+    height: auto;
+    display: inline-block
+}
+.listablock{
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 10px;
+}
+.listablock ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.listablock li{
+    padding-top: 10px;
+}
+.block3{
+    margin-bottom: 20px;
+}
+.itemblock ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(234, 190,124);
+    color:  #311E10;
+    width: 39%;
+}
+.itemblock li{
+    padding: 5px 0;
+}
+.title{
+    font-weight: bold;
+}
+.preco{
+    color:rgb(234, 190,124);
+    background-color: #311E10;
+    padding: 2px 8px;
+}
+.block3{
+    margin-bottom: 20px;
+}
+.block4 p{
+    padding-bottom: 15px;
+}
+#btnFranqueado{
+    text-decoration: none;
+    font-weight: bold;
+    color: #311E10;
+    padding: 10px;
+    background-color: rgb(234, 190,124);
+    border-radius: 1em;
+    border: 2px solid #311E10;
+    display: inline-block;
+    width: 20%;
+    margin: 10px 40%;
+    text-align: center;
+}
+#btnFranqueado:hover{
+    background-color: #311E10;
+    color: rgb(234, 190,124);
+}
+@media screen and (max-width: 1400px){
+    .block img{
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .descricaoblock{
+        width: 80%;
+        margin: 0 10%;
+        display: block;
+    }
+    .block2 img{
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .listablock{
+        width: 80%;
+        margin: 0 10%;
+        display: block;
+    }
+    .itemblock{
+        width: 50%;
+        margin: 0 25%;
+        display: block;
+    }
+    .itemblock ul{
+        width: 100%;
+    }
+    .itemblock h2{
+        text-align: center;
+    }
+    .faturamentoblock{
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        padding: 0px;
+    }
+    .block img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .descricaoblock{
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .descricaoblock h2, p{
+        padding: 0 10px;
+    }
+    .block2 img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .listablock{
+        width:100%;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .listablock h2, ul{
+        padding: 0 10px;
+    }
+    .itemblock{
+        width: 70%;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .itemblock ul{
+        width: 100%;
+    }
+    #btnFranqueado{
+        width: 40%;
+        margin: 10px 30%;
+    }
+}
