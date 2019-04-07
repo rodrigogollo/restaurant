@@ -7,7 +7,7 @@ drop.addEventListener("click",function(){
     } 
     else{
         droplist.style.display = "block";
-        document.querySelector(".container").style.marginTop = "194px";
+        document.querySelector(".container").style.marginTop = "119px";
     } 
 });
 /* não tem hover no celular 
