@@ -1,2 +1,5 @@
-# Restaurant
-Learning how to build a basic restaurant static website. Trying to build it responsive but my CSS is not well done.
+#Restaurant/Restaurante
+*English*
+Build a basic restaurant static website. Trying to build it responsive too.
+*Português*
+Criando um site de restaurante estático. Tentando cria-lo responsivamente. 

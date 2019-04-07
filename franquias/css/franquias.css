@@ -3,6 +3,7 @@
     width: 80%;
     position: relative;
     padding: 20px 0px;
+    margin-top: 44px;
 }
 .block{
     margin-bottom: 20px;
@@ -156,7 +157,7 @@
         padding: 0 10px;
     }
     .itemblock{
-        width: 70%;
+        width: 85%;
         margin: auto;
         padding: 10px 0;
     }
